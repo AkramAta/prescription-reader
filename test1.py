@@ -4,8 +4,7 @@ from PIL import Image
 import cv2
 import numpy as np
 
-# Ensure the Tesseract path is correctly set for your system
-pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
+
 
 # Improved preprocessing for handwritten OCR
 def preprocess_image(uploaded_file):
