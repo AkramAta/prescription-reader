@@ -5,7 +5,7 @@ from PIL import Image
 import cv2
 import numpy as np
 
-
+pytesseract.pytesseract.tesseract_cmd = "/usr/bin/tesseract"
 
 # Improved preprocessing for handwritten OCR
 def preprocess_image(uploaded_file):
